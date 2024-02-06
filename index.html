@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Сервисный центр</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="wrapper">
+            <nav class="main-nav">
+                <div class="logo">
+                    <a class="header-logo" href="#">
+                        <img src="img/svg/logo.svg" alt="Логотип" width="150" height="40">
+                    </a>
+                </div>
+                <div class="header-contacts">
+                    <div class="header-contacts__phone">
+                        <a href="tel:+7(999)844-38-48">+7(999)844-38-48</a>
+                    </div>
+                    <div class="header-contacts__street">
+                        <span>ул.Наличная, 55</span>
+                    </div>
+                    <div class="header-contacts__link">
+                        <a href="#" class="callBox">Оставить заявку</a>
+                    </div>
+                </div>
+            </nav>
+        </div>      
+    </header>
+    <section class="main-banner">
+        <div class="wrapper">
+            <div class="banner-title">
+                <div class="banner-title__first">
+                    <span>Сервисный центр</span>
+                </div>
+                <div class="banner-title__second">
+                    <div class="repair"><span>по ремонту</span></div>
+                    <div class="technick"><span>техники</span></div>
+                </div>
+            </div>
+            <div class="banner-request">
+                <div class="banner-request__first"></div>
+                <div class="request-text">
+                    <p>Быстрый и качественный ремонт техники</p>
+                    <p>Оставьте заявку, чтобы починить устройство</p>
+                </div>  
+            </div>
+            <div class="banner-button">
+                <div class="banner-btn">
+                    <a href="#" class="callBox">Оставить <br> заявку</a>
+                </div>
+                <div class="banner-frame"></div>
+            </div>
+            <img  class="banner-img" src="img/macbook.png" alt="">   
+        </div>
+    </section>
+    <div class="wrapper">
+        <section class="device">
+            <div><span class="device-tag">Устройства</span></div>
+            <div class="device-title"><span>Множество различных устройств</span></div>
+            <div class="navigation-slider">
+                <button id="gallery-left" class="btn-reset reviews__btn revies__btn--left" aria-label="Slide left">
+                    <svg width="34.000000" height="34.000000" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <clipPath id="clip418_41">
+                                <rect id="Frame" width="34.000000" height="34.000000" fill="white" fill-opacity="0"/>
+                            </clipPath>
+                        </defs>
+                        <rect id="Frame" width="34.000000" height="34.000000" fill="#FFFFFF" fill-opacity="0"/>
+                        <g clip-path="url(#clip418_41)">
+                            <path id="Vector" d="M25.9038 12.9519L24.2891 12.9519L24.2891 11.3369L14.5669 11.3369L14.5669 8.09619L12.9521 8.09619L12.9521 9.71118L11.3369 9.71118L11.3369 11.3369L9.71143 11.3369L9.71143 12.9519L8.09619 12.9519L8.09619 14.5669L6.4707 14.5669L6.4707 16.1924L8.09619 16.1924L8.09619 17.8074L9.71143 17.8074L9.71143 19.4331L11.3369 19.4331L11.3369 21.0481L12.9521 21.0481L12.9521 22.6631L14.5669 22.6631L14.5669 19.4331L21.0483 19.4331L21.0483 21.0481L22.6631 21.0481L22.6631 22.6631L21.0483 22.6631L21.0483 24.2886L19.4331 24.2886L19.4331 25.9038L22.6631 25.9038L22.6631 24.2886L25.9038 24.2886L25.9038 22.6631L27.519 22.6631L27.519 14.5669L25.9038 14.5669L25.9038 12.9519Z" fill="#9999A9" fill-opacity="1.000000" fill-rule="nonzero"/>
+                        </g>
+                    </svg>                        
+                </button>
+                <button id="gallery-right" class="btn-reset reviews__btn revies__btn--right" aria-label="Slide left">
+                    <svg width="34.000000" height="34.000000" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <clipPath id="clip418_43">
+                                <rect id="Frame" width="34.000000" height="34.000000" transform="matrix(-1 0 0 1 34 0)" fill="white" fill-opacity="0"/>
+                            </clipPath>
+                        </defs>
+                        <rect id="Frame" width="34.000000" height="34.000000" transform="matrix(-1 0 0 1 34 0)" fill="#FFFFFF" fill-opacity="0"/>
+                        <g clip-path="url(#clip418_43)">
+                            <path id="Vector" d="M8.09619 12.9519L9.71094 12.9519L9.71094 11.3369L19.4331 11.3369L19.4331 8.09619L21.0479 8.09619L21.0479 9.71118L22.6631 9.71118L22.6631 11.3369L24.2886 11.3369L24.2886 12.9519L25.9038 12.9519L25.9038 14.5669L27.5293 14.5669L27.5293 16.1924L25.9038 16.1924L25.9038 17.8074L24.2886 17.8074L24.2886 19.4331L22.6631 19.4331L22.6631 21.0481L21.0479 21.0481L21.0479 22.6631L19.4331 22.6631L19.4331 19.4331L12.9517 19.4331L12.9517 21.0481L11.3369 21.0481L11.3369 22.6631L12.9517 22.6631L12.9517 24.2886L14.5669 24.2886L14.5669 25.9038L11.3369 25.9038L11.3369 24.2886L8.09619 24.2886L8.09619 22.6631L6.48096 22.6631L6.48096 14.5669L8.09619 14.5669L8.09619 12.9519Z" fill="#9999A9" fill-opacity="1.000000" fill-rule="nonzero"/>
+                        </g>
+                    </svg>                        
+                </button>
+            </div>
+            <div id="device-gallery" class="device-catalog swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="device-main__col">
+                            <div class="device-main">
+                                <div class="device-main__logo">
+                                    <img src="img/phone.png">
+                                </div>
+                            </div>
+                            <div><a class="callBox" href="#">Смартфоны</a></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="device-other">
+                            <div class="device-other__list">
+                                    <div class="device-tv">
+                                        <img src="img/tv.png" alt="Телевизоры">
+                                    </div>
+                                    <div class="device-laptop">
+                                        <img src="img/laptop.png" alt="Ноутбуки" width="252" height="200">
+                                    </div> 
+                            </div>
+                            <div class="device-other__link">
+                                    <div class="link-first"><a class="callBox" href="#">Телевизоры</a></div>
+                                    <div class="link-second"><a class="callBox" href="#">Ноутбуки и ПК</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="device-main__col">
+                            <div class="device-main">
+                                <div class="device-main__logo">
+                                    <img src="img/phone.png">
+                                </div>
+                            </div>
+                            <div><a href="#">Смартфоны</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>  
+    <section class="brands">
+        <div class="wrapper">
+            <div class="brands-list">
+                <div class="brands-item">
+                    <img src="img/icon/brands/apple.png">
+                </div>
+                <div class="brands-item">
+                    <img src="img/icon/brands/acer.png">
+                </div>
+                <div class="brands-item">
+                    <img src="img/icon/brands/hp.png">
+                </div>
+                <div class="brands-item">
+                    <img src="img/icon/brands/samsung.png">
+                </div>
+                <div class="brands-item">
+                    <img src="img/icon/brands/mi.png">
+                </div>
+                <div class="brands-item">
+                    <img src="img/icon/brands/sony.png">
+                </div>
+            </div>
+            <div class="brands-info">
+                <div class="brands-counter"><span>100+</span></div>
+                <div class="brands-line"><img src="img/icon/line.png"></div>
+                <p>Обслуживание сотен брендов</p>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="wrapper">
+            <div class="features-tag "><span>Преимущества</span></div>
+            <div class="features-title"><span>Что нас отличает</span></div>
+            <div class="features-list">
+                <div class="features-item__main">
+                    <img src="img/reputation.png" alt="Высокая репутация сервиса">
+                </div>
+                <div class="features-item"><img src="img/spares.png" alt="Оригинальные запчасти"></div>  
+                <div class="features-item"><img src="img/warranty.png" alt="Гарантия до 2 лет"></div>    
+            </div>
+            <div class="features-info">
+                <div class="features-info__main">
+                    <span>Высокая репутация сервиса</span>
+                    <p>Высокая репутация и множество реальных отзывов от клиентов
+                        нашего сервисного центра</p>
+                    <ul class="breadcrumbs">
+                        <li><a class="breadcrumbs-link" href="#">Яндекс карты</a></li>
+                        <li><a class="breadcrumbs-link" href="#">Google карты</a></li>
+                        <li><a class="breadcrumbs-link" href="#">2gis</a></li>
+                        <li><a class="breadcrumbs-link" href="#">Yell</a></li>
+                        <li><a class="breadcrumbs-link" href="#">Zoon</a></li>
+                    </ul>
+                </div>
+                <div class="features-info__spares">
+                    <span>Оригинальные запчасти</span>
+                    <p>Наш сервисный центр является
+                        одним из крупнейших поставщиков
+                        запчастей в стране</p>
+                </div>
+                <div class="features-info__warranty">
+                    <span>Гарантия до 2 лет</span>
+                    <p>Предоставляем гарантию на все виды
+                        работ от 1-го месяца до 2-х лет</p>
+                </div>
+            </div>       
+        </div>
+    </section>
+    <section class="request">
+        <div class="wrapper">
+            <div class="request-bid">
+                <div class="request-bid__item">
+                    <div>
+                        <img src="img/bid.png" alt="Оставьте звявку онлайн">
+                    </div>
+                    <div class="request-bid__link">
+                        <div><span>Есть вопросы?</span></div>
+                        <div><h3>Оставьте заявку онлайн</h3></div>
+                        <div><p>Всегда готовы предоставить нашим клиентам самый
+                            лучший сервис среди конкурентов</p></div>
+                        <div><img src="/img/icon/link-bottom.png" alt="" width="60" height="61"></div>
+                        <a href="#" class="callBox">Починить устройство</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="wrapper">
+            <div class="portfolio-tag"><span>Работы</span></div>
+            <div class="portfolio-title"><span>Примеры наших работ</span></div>
+            <ul class="portfolio-breadcrumbs">
+                <li><a class="breadcrumbs-link" href="#">Смартфоны</a></li>
+                <li><a class="breadcrumbs-link__active" href="#">Телевизоры</a></li>
+                <li><a class="breadcrumbs-link" href="#">Ноутбуки и ПК</a></li>
+                <li><a class="breadcrumbs-link" href="#">Планшеты</a></li>
+                <li><a class="breadcrumbs-link" href="#">PlayStation</a></li>
+            </ul>
+            <div class="portfolio-slider">
+                <div class="portfolio-operation">
+                    <div class="operation-item"><a class="callBox" href="#">&mdash;&nbsp;Ремонт платы</a></div>
+                    <div class="operation-item"><a class="callBox" href="#">&mdash;&nbsp;Замена динамиков</a></div>
+                    <div class="operation-item"><a class="callBox" href="#" id="operation-item__active">&mdash;&nbsp;Ремонт блока питания</a></div>
+                    <div class="operation-item"><a>&mdash;&nbsp;Замена подсветки</a></div>
+                </div>
+                <div id="portfolio-swiper" class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="portfolio-example">
+                                <a href=""><img src="/img/example.png" alt="" height="430px"></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio-example">
+                                <a href=""><img src="/img/example-second.png" alt="" height="430px"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="roadmap">
+        <div class="wrapper">
+            <div class="roadmap-main">
+                <div class="roadmap-title">
+                    <span>Всего 3 простых шага</span>
+                    <h3>Порядок работы при обращении</h3>
+                </div>
+                <div class="roadmap-step">
+                    <div class="roadmap-item">
+                        <div class="roadmap-item__icon"><img src="/img/icon/phone-step.png" alt=""></div>
+                        <div class="roadmap-item__info">
+                            <span>Заявка на сайте или по телефону</span>
+                            <p>Вы оставляете заявку на нашем сайте
+                                или звоните по телефону</p>
+                        </div>
+                        <div class="roadmap-item__count"><span>01</span></div>
+                    </div>
+                    <div class="roadmap-arrow">
+                        <img src="/img/icon/roadmap-arrow.png" alt="">
+                    </div>
+                    <div class="roadmap-item">
+                        <div class="roadmap-item__icon"><img src="/img/icon/check.png" alt=""></div>
+                        <div class="roadmap-item__info">
+                            <span>Диагностика и согласование</span>
+                            <p>Мы диагностируем и согласовываем
+                                ремонт с Вами</p>
+                        </div>
+                        <div class="roadmap-item__count"><span>02</span></div>
+                    </div>
+                    <div class="roadmap-arrow">
+                        <img src="/img/icon/roadmap-arrow.png" alt="">
+                    </div>
+                    <div class="roadmap-item">
+                        <div class="roadmap-item__icon"><img src="/img/icon/repair.png" alt=""></div>
+                        <div class="roadmap-item__info">
+                            <span>Ремонт неисправного устройства</span>
+                            <p>После Вашего согласия начинаем производить
+                                ремонт устройства</p>
+                        </div>
+                        <div class="roadmap-item__count"><span>03</span></div>
+                    </div>
+                    <div class="roadmap-arrow">
+                        <img src="/img/icon/roadmap-arrow.png" alt="">
+                    </div>
+                    <div class="roadmap-item">
+                        <div class="roadmap-item__icon"><img src="/img/icon/repair.png" alt=""></div>
+                        <div class="roadmap-item__info">
+                            <span>Выдача рабочего аппарата</span>
+                            <p>Выдаем Вам готовое устройство и даем
+                                гарантию на выполненную работуа</p>
+                        </div>
+                        <div class="roadmap-item__count"><span>04</span></div>
+                    </div>
+                </div>
+                <div class="roadmap-keybord"><img src="/img/keybord.png" alt=""></div>
+                <div class="roadmap-phone"><img src="/img/crush-phone.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="wrapper">
+            <div class="reviews-main">
+                <div class="reviews-title">
+                    <span>Множество отзывов</span>
+                    <h3>Отзывы реальных клиентов</h3>
+                </div>
+                <div id="gallery" class="reviews-gallery swiper">
+                    <div class="navigation-slider">
+                        <button id="gallery-left" class="btn-reset reviews__btn revies__btn--left" aria-label="Slide left">
+                            <svg width="34.000000" height="34.000000" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <defs>
+                                    <clipPath id="clip418_41">
+                                        <rect id="Frame" width="34.000000" height="34.000000" fill="white" fill-opacity="0"/>
+                                    </clipPath>
+                                </defs>
+                                <rect id="Frame" width="34.000000" height="34.000000" fill="#FFFFFF" fill-opacity="0"/>
+                                <g clip-path="url(#clip418_41)">
+                                    <path id="Vector" d="M25.9038 12.9519L24.2891 12.9519L24.2891 11.3369L14.5669 11.3369L14.5669 8.09619L12.9521 8.09619L12.9521 9.71118L11.3369 9.71118L11.3369 11.3369L9.71143 11.3369L9.71143 12.9519L8.09619 12.9519L8.09619 14.5669L6.4707 14.5669L6.4707 16.1924L8.09619 16.1924L8.09619 17.8074L9.71143 17.8074L9.71143 19.4331L11.3369 19.4331L11.3369 21.0481L12.9521 21.0481L12.9521 22.6631L14.5669 22.6631L14.5669 19.4331L21.0483 19.4331L21.0483 21.0481L22.6631 21.0481L22.6631 22.6631L21.0483 22.6631L21.0483 24.2886L19.4331 24.2886L19.4331 25.9038L22.6631 25.9038L22.6631 24.2886L25.9038 24.2886L25.9038 22.6631L27.519 22.6631L27.519 14.5669L25.9038 14.5669L25.9038 12.9519Z" fill="#9999A9" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </g>
+                            </svg>                        
+                        </button>
+                        <button id="gallery-right" class="btn-reset reviews__btn revies__btn--right" aria-label="Slide left">
+                            <svg width="34.000000" height="34.000000" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <defs>
+                                    <clipPath id="clip418_43">
+                                        <rect id="Frame" width="34.000000" height="34.000000" transform="matrix(-1 0 0 1 34 0)" fill="white" fill-opacity="0"/>
+                                    </clipPath>
+                                </defs>
+                                <rect id="Frame" width="34.000000" height="34.000000" transform="matrix(-1 0 0 1 34 0)" fill="#FFFFFF" fill-opacity="0"/>
+                                <g clip-path="url(#clip418_43)">
+                                    <path id="Vector" d="M8.09619 12.9519L9.71094 12.9519L9.71094 11.3369L19.4331 11.3369L19.4331 8.09619L21.0479 8.09619L21.0479 9.71118L22.6631 9.71118L22.6631 11.3369L24.2886 11.3369L24.2886 12.9519L25.9038 12.9519L25.9038 14.5669L27.5293 14.5669L27.5293 16.1924L25.9038 16.1924L25.9038 17.8074L24.2886 17.8074L24.2886 19.4331L22.6631 19.4331L22.6631 21.0481L21.0479 21.0481L21.0479 22.6631L19.4331 22.6631L19.4331 19.4331L12.9517 19.4331L12.9517 21.0481L11.3369 21.0481L11.3369 22.6631L12.9517 22.6631L12.9517 24.2886L14.5669 24.2886L14.5669 25.9038L11.3369 25.9038L11.3369 24.2886L8.09619 24.2886L8.09619 22.6631L6.48096 22.6631L6.48096 14.5669L8.09619 14.5669L8.09619 12.9519Z" fill="#9999A9" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </g>
+                            </svg>                        
+                        </button>
+                    </div>
+                    <div class="swiper-wrapper reviews-list">
+                        <div class="reviews-item__first swiper-slide">
+                             <div class="reviews-author"><span>John Doe</span></div>
+                             <div class="reviews-text">
+                                <p>
+                                    Отличный сервисный центр! По&nbsp;нелепой случайности разбился глазок основной камеры iPhone 12&nbsp;и&nbsp;соответсвенно пришла в&nbsp;негодность и&nbsp;сама камера. Все сделано просто идеально
+                                </p>
+                                <div class="reviews-source"><img src="/img/icon/google.png" alt=""></div>
+                             </div>
+                        </div>
+                        <div class="swiper-slide reviews-item__second ">
+                            <div class="reviews-author"><span>John Doe</span></div>
+                             <div class="reviews-text">
+                                <p>
+                                    Телевизор Филипс перестал реагировать на&nbsp;пульт, пульт работал, лампочка на&nbsp;телевизоре моргала. Вечером, часов в&nbsp;пять сдал телевизор в&nbsp;сервис. На&nbsp;следующий день около часа позвонили, сказали, сколько будет стоить ремонт. Я&nbsp;согласился и&nbsp;в&nbsp;пять часов уже забрал свой отремонтированный телевизор. Всё чётко и&nbsp;понятно. Так держать. Ставлю пять звёзд
+                                </p>
+                                <div class="reviews-source"><img src="/img/icon/2gis.png" alt=""></div>
+                             </div>
+                        </div>
+                        <div class="swiper-slide reviews-item__second ">
+                            <div class="reviews-author"><span>John Doe</span></div>
+                             <div class="reviews-text">
+                                <p>
+                                    Телевизор Филипс перестал реагировать на&nbsp;пульт, пульт работал, лампочка на&nbsp;телевизоре моргала. Вечером, часов в&nbsp;пять сдал телевизор в&nbsp;сервис. На&nbsp;следующий день около часа позвонили, сказали, сколько будет стоить ремонт. Я&nbsp;согласился и&nbsp;в&nbsp;пять часов уже забрал свой отремонтированный телевизор. Всё чётко и&nbsp;понятно. Так держать. Ставлю пять звёзд
+                                </p>
+                                <div class="reviews-source"><img src="/img/icon/2gis.png" alt=""></div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-rating">
+                    <div class="reviews-count">
+                        <span>4.8</span>                      
+                    </div>
+                    <div class="reviews-rating__text">
+                        <p>Наш рейтинг на Яндекс.Картах</p>
+                        <span>1000+ оценок</span>
+                    </div>
+                </div>
+                <div class="reviews-border"></div>
+                <div class="reviews-attention">
+                    <div class="reviews-attention__text">
+                        <img src="/img/icon/win.png" alt="">
+                        <span>Убедитесь сами! Посмотрите другие источники</span>
+                    </div>
+                    <div class="reviews-breadcrumbs">
+                        <ul class="breadcrumbs">
+                            <li><a class="breadcrumbs-link" href="#">Яндекс карты</a></li>
+                            <li><a class="breadcrumbs-link" href="#">Google карты</a></li>
+                            <li><a class="breadcrumbs-link" href="#">2gis</a></li>
+                            <li><a class="breadcrumbs-link" href="#">Yell</a></li>
+                            <li><a class="breadcrumbs-link" href="#">Zoon</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="answers">
+        <div class="wrapper">
+            <div class="answers-main">
+                <div class="answers-title">
+                    <span>Вопрос - ответ</span>
+                    <h3>Частые вопросы клиентов</h3>
+                </div>
+                <div class="answers-border"></div>
+                <div class="answers-breadcrumbs">
+                    <ul class="breadcrumbs">
+                        <li><a class="breadcrumbs-link" href="#">Вопрос 01</a></li>
+                        <li><a class="breadcrumbs-link__active" href="#">Вопрос 02</a></li>
+                        <li><a class="breadcrumbs-link" href="#">Вопрос 03</a></li>
+                        <li><a class="breadcrumbs-link" href="#">Вопрос 04</a></li>
+                        <li><a class="breadcrumbs-link" href="#">Вопрос 05</a></li>
+                    </ul>
+                </div>
+                <div class="answers-text">
+                    <span>Вызвать мастера на дом или приехать к вам в сервис?
+                    </span>
+                    <p>На дому больше модульный, блочный ремонт - он дороже чем компонентный. В мастерской больше возможностей починить устройство на компонентном уровне. (т.е. не менять целый модуль, поменять его компоненты). В мастерской больше диагностического оборудования для более точной диагностики неисправности. В мастерской есть стенды для послеремонтной проверки.</p>
+                    <span class="answers-count">Ответ 02</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="big-device">
+        <div class="wrapper">
+            <div class="big-device__img"><img src="/img/iphone.png" alt="Iphone"></div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="wrapper">
+            <div class="contacts-main">
+                <div class="contacts-title">
+                    <span>Контакты</span>
+                    <h3>Связаться с нами</h3>
+                </div>
+            </div>
+            <div class="contacts-list">
+                <div class="contacts-phone">
+                    <span class="contacts-phone__text">Звоните и пишите нам</span>
+                    <span class="contacts-phone__numbers">+7 (812) 333-70-75</span>
+                    <span class="contacts-phone__info">Так же есть возможность написать нам в Telegram или WhatsApp</span>
+                    <div class="contacts-phone__messanger">
+                        <div><img src="img/svg/tg.svg" alt="Telegram" width="24" height="24"></div>
+                        <div><a href="#">Telegram</a></div>
+                        <div><img src="img/svg/wa.svg" alt="WhatsApp" width="24" height="24"></div>   
+                        <div><a href="#">WhatsApp</a></div>
+                        <div><a href="mailto:mail@55@rem.biz">55@rem.biz</a></div>
+                    </div>
+                </div>
+                <div class="contacts-street">
+                    <div class="contacts-street__info">
+                        <div><span class="contacts-phone__text">Ждем Вас по адресу</span></div>
+                        <div><span class="contacts-phone__numbers">ул.Наличная, 55</span></div>
+                        <div><span class="contacts-phone__info">Ежедневно С&nbsp;10:00 до&nbsp;21:00</span></div>
+                        <div class="contacts-subway">
+                            <img src="img/icon/subway.png" alt="Метро Приморская">
+                            <span>Приморская</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts-map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=mymaps%3AaEXVtLmaAc4ow3rTnnHmr3PRQ_FLvrUH&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>     
+        </div>
+    </section>
+    <section class="footer">
+        <div class="wrapper">
+            <div class="footer-bid">
+                <div class="request-bid__link">
+                    <div><span>Есть вопросы?</span></div>
+                    <div><h3>Оставьте заявку онлайн</h3></div>
+                    <div><p>Всегда готовы предоставить нашим клиентам самый
+                        лучший сервис среди конкурентов</p></div>
+                    <div><img src="/img/icon/link-bottom.png" alt="" width="60" height="61"></div>
+                    <a href="#" class="callBox">Починить устройство</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-seo">
+            <span>Ремонт техники в Санкт-Петербурге</span>
+        </div>
+    </section>
+    <div class="modal-box" id="call-form">
+        <div class="modal-wrapper">
+                <form class="modal-form" action="#">
+                    <label class="modal-field">
+                        <div class="modal-field__title"><span>Оставить заявку</span></div>
+                        <div class="modal-field__tag"><span>Пожалуйста, запонилните форму обратной связи</span></div>
+                        <div class="modal-field__label"><span>Контактные данные</span></div>
+                        <div class="modal-field__input">
+                            <input type="text" name="contact-name" class="form-input__name" placeholder="Введите имя">
+                            <div class="modal-field__icon modal-field__icon_phone">
+                                <input type="text" name="contact-phone" class="form-input__phone" placeholder="+7" id="input-mask">
+                            </div>
+                        </div>
+                    </label>
+                    <button class="btn-modal"><a href="#">Оставить заявку</a></button>
+                    <p>Заполняя формы на&nbsp;сайте и&nbsp;отправляя данные, вы&nbsp;соглашаетесь
+                        на&nbsp;обработку персональных данных</p>
+                    <div class="modal-close">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M17.7147 17.7142L6.28613 6.28564" stroke="#131314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17.7147 6.28564L6.28613 17.7142" stroke="#131314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </form>
+         </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
