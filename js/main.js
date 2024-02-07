@@ -68,7 +68,7 @@ const swiperPortfolio = new Swiper("#portfolio-swiper", {
 // Переключение слайдов при наведении на ссылку
 let elementsFolio = document.querySelectorAll('.operation-item a');
 elementsFolio.forEach(function(elem) {
-    elem.addEventListener("mousemove", function() {
+    elem.addEventListener("mouseenter", function() {
         swiperPortfolio.slideNext();
     });
 });

@@ -1274,6 +1274,7 @@ body {
 }
 .modal-wrapper {
   position: relative;
+  padding-bottom: 0;
 }
 .modal-field__icon {
   position: relative;
@@ -1331,6 +1332,10 @@ body {
   display: flex;
   opacity: 1;
 }
+.modal-form p a {
+  text-decoration: none;
+  color: rgb(19, 19, 20);
+}
 .modal-box a::after {
   content: "";
   width: 24px;
@@ -1342,6 +1347,8 @@ body {
   opacity: 0.5;
 }
 .modal-box p {
+  width: 462px;
+  padding: 15px;;
   color: #7B7B7B;
   font-variant-numeric: lining-nums proportional-nums;
   font-family: Manrope;
