@@ -1,13 +1,19 @@
 
 const ModalCallForm = document.getElementById("call-form")
+const SuccessPopUpBtn = document.getElementById("success-poppup")
+const SuccessPopUpBox = document.getElementById("success-poppup__box")
 
 let elementsArray = document.querySelectorAll('.callBox');
 elementsArray.forEach(function(elem) {
     elem.addEventListener("click", function() {
         ModalCallForm.classList.add("modal-box__open")
-    });
-});
+    })
+})
 
+SuccessPopUpBtn.addEventListener("click", function () {
+    ModalCallForm.classList.remove("modal-box__open");
+    SuccessPopUpBox.classList.add("succes-box__open");
+})
 
 // Закрытие модального окна
 ModalCallForm.querySelector(".modal-wrapper").addEventListener("click", function (event) {
@@ -15,13 +21,13 @@ ModalCallForm.querySelector(".modal-wrapper").addEventListener("click", function
 })
 ModalCallForm.addEventListener("click", function (event) {
     if (event._isClick === true) return
-    ModalCallForm.classList.remove("modal-box__open")
+    ModalCallForm.classList.add("modal-box__open");
 })
   
 // Закрытие при нажатии на Esc
 window.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
-        ModalCallForm.classList.remove("modal-box__open")
+        ModalCallForm.classList.remove("modal-box__open");
     }
 })
 

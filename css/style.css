@@ -58,6 +58,7 @@ body {
 .main-nav{
   padding-top: 15px;
   padding-bottom: 15px;
+  margin-bottom: 80px;
 }
 .main-nav-logo {
   width: 11%;
@@ -209,7 +210,7 @@ body {
 .banner-img {
   position: absolute;
   right: 521px;
-  top: 117px;
+  top: 197px;
 }
 .device {
   margin-top: 200px;
@@ -307,7 +308,7 @@ body {
   height: 280px;
   padding: 10px;
   align-items: flex-start;
-  align-content: flex-start;
+  align-content: center;
   flex-wrap: wrap;
   border-radius: 15px;
   background: var(--belyy);
@@ -346,7 +347,7 @@ body {
   height: 280px;
   padding: 10px;
   align-items: flex-start;
-  align-content: flex-start;
+  align-content: center;
   flex-wrap: wrap;
   border-radius: 15px;
   background: var(--belyy);
@@ -1194,7 +1195,7 @@ body {
 .modal-wrapper{
   width: 100%;
   margin: auto;
-  max-width: 670px;
+  max-width: 645px;
   height: 400px;
   display: flex;
   padding: 25px;
@@ -1203,6 +1204,7 @@ body {
   gap: 30px;
   border-radius: 10px;
   background: var(--belyy);
+  padding-right: 0;
 }
 .modal-field .modal-field__title{
   color: var(--chernyy);
@@ -1358,6 +1360,8 @@ body {
   line-height: 150%; /* 22.5px */
 }
 .modal-close {
+  width: 24px;
+  height: 24px;
   position: absolute;
   right: 25px;
   top: 25px;
@@ -1392,4 +1396,43 @@ body {
   width: 24px;
   height: 24px;
   margin-left: 300px;
+}
+.succes-box{
+  position: relative;
+  width: 488px;
+  height: 407px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px 40px 25px 25px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  visibility: hidden;
+  z-index: 1000;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out
+}
+.succes-box .modal-field__title{
+  color: var(--chernyy);
+  font-family: "Better VCR";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 50.4px */
+  margin-bottom: 15px;
+}
+.succes-box .modal-field__tag {
+  color: var(--vtorostepennyy);
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+  margin-bottom: 30px;
+}
+.succes-box__open {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    left: 0%;
 }
