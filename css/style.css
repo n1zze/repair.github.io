@@ -234,6 +234,8 @@ body {
   line-height: 140%;
   color: var(--chernyy);
   margin-top: 20px;
+  position: absolute;
+  z-index: 200;
 }
 .device-catalog {
   display: flex;
@@ -797,6 +799,13 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
+.reviews-main .reviews-title {
+  position: absolute;
+  z-index: 400;
+}
+.reviews-main .reviews__btn {
+  margin-top: 50px;
+}  
 .reviews-title, .answers-title {
   display: flex;
   flex-direction: column;
@@ -825,6 +834,8 @@ body {
 .reviews__btn{
   width: 34px;
   height: 34px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 .navigation-slider{
   display: flex;
