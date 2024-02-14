@@ -14,17 +14,117 @@
   .header-contacts{
     justify-content: initial;
   }
-
 }
-@media (max-width: 350px) {
+@media (max-width: 375px) {
   .wrapper {
     width: 90%;
   }
-  .main-banner {
+  .header-logo img{
+    width: 126px;
+    height: 30px;
+  }
+  .main-nav{
+    display: flex;
+    justify-content: space-around;
+  }
+  .main-header .contacts-list{
+    display: none;
+    flex-direction: column;
+    width: 99%;
+    padding: 0;
+    gap:15px;
+  }
+  .header-contacts{
+    justify-content: initial;
+  }
+  .main-header .contacts-phone {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+  }
+  .main-header .contacts-phone__text{
+    color: rgb(0, 0, 0);
+    font-family: Better VCR;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .main-header .contacts-phone__numbers{
+    color: rgb(0, 0, 0);
+    font-family: Better VCR;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .main-header .contacts-phone__info {
+    color: rgb(0, 0, 0);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .main-header .contacts-phone__messanger{
+    align-items: flex-start;
+    color: rgb(0, 0, 0);
+    font-family: Better VCR;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .burger-wrapper{
+    display: flex;
+    position: relative;
+    background-color: antiquewhite;
+    gap: 15px;
+    align-items: center;
+  }
+  .btn-burger{
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  .btn-burger__active{
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_331_594)'%3E%3Cpath d='M22.8599 9.14258H23.9999V14.8576H22.8599V9.14258Z' fill='%23FF0000' /%3E%3Cpath d='M21.7124 14.8574H22.8599V17.1449H21.7124V14.8574Z' fill='%23FF0000' /%3E%3Cpath d='M21.7124 6.85498H22.8599V9.14248H21.7124V6.85498Z' fill='%23FF0000' /%3E%3Cpath d='M20.5723 17.145H21.7123V19.425H20.5723V17.145Z' fill='%23FF0000' /%3E%3Cpath d='M20.5723 4.56738H21.7123V6.85488H20.5723V4.56738Z' fill='%23FF0000' /%3E%3Cpath d='M19.4248 19.425H20.5723V20.5725H19.4248V19.425Z' fill='%23FF0000' /%3E%3Cpath d='M19.4248 3.42749H20.5723V4.56749H19.4248V3.42749Z' fill='%23FF0000' /%3E%3Cpath d='M17.145 20.5725H19.425V21.7125H17.145V20.5725Z' fill='%23FF0000' /%3E%3Cpath d='M18.2849 9.14259H17.1449V8.00259H10.2824V5.71509H9.14238V6.85509H8.00238V8.00259H6.85488V9.14259H5.71488V10.2826H4.56738V11.4301H5.71488V12.5701H6.85488V13.7176H8.00238V14.8576H9.14238V15.9976H10.2824V13.7176H14.8574V14.8576H15.9974V15.9976H14.8574V17.1451H13.7174V18.2851H15.9974V17.1451H18.2849V15.9976H19.4249V10.2826H18.2849V9.14259Z' fill='%23FF0000' /%3E%3Cpath d='M17.145 2.2876H19.425V3.4276H17.145V2.2876Z' fill='%23FF0000' /%3E%3Cpath d='M14.8574 21.7124H17.1449V22.8599H14.8574V21.7124Z' fill='%23FF0000' /%3E%3Cpath d='M14.8574 1.13989H17.1449V2.28739H14.8574V1.13989Z' fill='%23FF0000' /%3E%3Cpath d='M9.14258 22.8601H14.8576V24.0001H9.14258V22.8601Z' fill='%23FF0000' /%3E%3Cpath d='M9.14258 0H14.8576V1.14H9.14258V0Z' fill='%23FF0000' /%3E%3Cpath d='M6.85498 21.7124H9.14248V22.8599H6.85498V21.7124Z' fill='%23FF0000' /%3E%3Cpath d='M6.85498 1.13989H9.14248V2.28739H6.85498V1.13989Z' fill='%23FF0000' /%3E%3Cpath d='M4.56738 20.5725H6.85488V21.7125H4.56738V20.5725Z' fill='%23FF0000' /%3E%3Cpath d='M4.56738 2.2876H6.85488V3.4276H4.56738V2.2876Z' fill='%23FF0000' /%3E%3Cpath d='M3.42773 19.425H4.56773V20.5725H3.42773V19.425Z' fill='%23FF0000' /%3E%3Cpath d='M3.42773 3.42749H4.56773V4.56749H3.42773V3.42749Z' fill='%23FF0000' /%3E%3Cpath d='M2.2876 17.145H3.4276V19.425H2.2876V17.145Z' fill='%23FF0000' /%3E%3Cpath d='M2.2876 4.56738H3.4276V6.85488H2.2876V4.56738Z' fill='%23FF0000' /%3E%3Cpath d='M1.14014 14.8574H2.28764V17.1449H1.14014V14.8574Z' fill='%23FF0000' /%3E%3Cpath d='M1.14014 6.85498H2.28764V9.14248H1.14014V6.85498Z' fill='%23FF0000' /%3E%3Cpath d='M0 9.14258H1.14V14.8576H0V9.14258Z' fill='%23FF0000' /%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_331_594'%3E%3Crect width='24' height='24' fill='white' /%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  }
+  .burger-line__active{
+    opacity: 0;
+  }
+  .burger-line{
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 5px;
+    right: 0;
+    background-color: var(--vtorostepennyy);
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
+  }
+  .burger-line:first-child {
+    top: 0;
+  }
+  .burger-line:last-child {
+    top: calc(100% - 3px);
+  }
+  .burger-line:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .main-banner{
     height: 628px;
   }
   .header-contacts, .header-contacts__phone, .header-contacts__street{
-    visibility: hidden;
+    display: none;
   }
   .banner-title__first, .banner-title__second{
     display: block;
@@ -32,6 +132,7 @@
     width: 300px;
     margin-bottom: 0;
   }
+
   .banner-request {
     display: none;
   }
@@ -47,12 +148,12 @@
     width: 100%;
     height: 80px;
     justify-content: center;
-    margin-top: 330px;
+    margin-top: 280px;
   }
   .banner-btn {
     display: flex;
     height: 80px;
-    width: 88%;
+    width: 100%;
     z-index: 6;
   }
   .banner-frame{
@@ -64,23 +165,37 @@
   }
   .device-catalog {
     width: 343px;
-    height: 347px;
+    margin-top: 100px;
   }
   .device-title {
+    display: block;
     margin-bottom: 30px;
     font-size: 20px;
+  }
+  .device-tv, .device-laptop{
+    width: 300px;
+    height: 347px;
+  }
+  #gallery-left, #gallery-right {
+    display: none;
   }
   .device-main__col, .device-main {
     width: 100%;
     height: 300px;
   }
   .device-other__list {
+    display: flex;
+    flex-direction: row;
     width: 20%;
     height: 300px;
   }
   .device-other__list img {
     width: 140px;
     height: 140px;
+  }
+  .device-main{
+    display: flex;
+    flex-direction: column;
   }
 
   .device-other__link {
@@ -91,8 +206,28 @@
     width: 140px;
     height: 140px;
   }
-  .device-main a {
-    font-size: 17px;
+  .device-main .main-link {
+    display: none;
+  }
+  .device-other__link{
+    display: none;
+  }
+  .device-laptop a, .device-main a, .device-tv a {
+    display: block;
+  }
+  .device-laptop, .device-main, .device-tv {
+    width: 300px;
+    height: 300px;
+    margin-right: 5px;
+  }
+ .main-link a {
+    display: none;
+  }
+  .device-catalog{
+    height: 345px;
+  }
+  .device-catalog .swiper-slide {
+    width: 460px;
   }
   .brands-counter{
     font-size: 24px;
@@ -119,15 +254,15 @@
     visibility: hidden;
   }
   .features-item__main{
-    width: 315px;
-    height: 315px;
+    width: 100%;
+    height: 300px;
   }
   .features-item__main img {
     width: 300px;
     height: 300px;
   }
   .features-info__main {
-    width: 90%;
+    width: 100%;
     height: 150px;
   }
   .features-item{
@@ -152,6 +287,12 @@
   .request-bid__item{
     width: 343px;
   }
+  .request-bid__link a{
+    font-size: 14px;
+  }
+  .request-bid__link p{
+    font-size: 15px
+  }
   .request-bid__item img {
     width: 300px;
     height: 200px;
@@ -166,6 +307,9 @@
   }
   .portfolio {
     margin-bottom: 120px;
+  }
+  .portfolio .portfolio-breadcrumb {
+    font-size: 14px;
   }
   .portfolio-title{
     margin-bottom: 30px;
@@ -207,10 +351,132 @@
   .roadmap-step{
     width: 100%;
   }
+  .roadmap-item__info span{
+    font-size: 14px;
+  }
+  .roadmap-item__info p{
+    font-size: 14px;
+  }
   .roadmap-item{
     width: 284px;
   }
   .portfolio-example {
     display: none;
+  }
+  .reviews-gallery{
+    width: 100%;
+  }
+  .reviews-main .reviews-title{
+    display: block;
+    position: static;
+    margin-bottom: 30px;
+  }
+  .reviews-title span {
+    font-size: 14px;
+    display: inline-block;
+    padding-bottom: 20px;
+  }
+  .reviews-title h3{
+    width: 259px;
+    text-align: left;
+  }
+  .reviews-list{
+    width: 678px;
+  }
+  .reviews-border{
+    width: 26%;
+  }
+  .reviews-rating{
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .reviews-count {
+    font-size: 32px;
+  }
+  .reviews-attention img{
+    width: 24px;
+    height: 24px;
+  }
+  .reviews-attention__text{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .reviews-attention__text span {
+    font-size: 15px;
+    display: block;
+    width: 304px;
+  }
+  .answers{
+    margin-bottom: 100px;
+  }
+  .answers-main{
+    width: 100%;
+    gap: 30px;
+  }
+  .answers-title h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--chernyy);
+  }
+  .answers-breadcrumbs{
+    display: ruby;
+  }
+  .answers-text {
+    width: 307px;
+    height: 356px;
+  }
+  .big-device__img{
+    width: 680px;
+    height: 103px;
+  }
+  .contacts-main{
+    width: 100%;
+  }
+  .contacts{
+    margin-bottom: 140px;
+  }
+  .contacts-title h3{
+    font-size: 20px;
+  }
+  .contacts-list {
+    flex-direction: column;
+  }
+  .contacts-phone{
+    width: 300px;
+    padding: 20px;
+  }
+  .contacts-phone__text{
+    font-size: 15px;
+  }
+  .contacts-phone__numbers{
+    font-size: 20px;
+  }
+  .contacts-phone__info{
+    font-size: 14px;
+  }
+  .contacts-phone__messanger a{
+    font-size: 10px;
+  }
+  .contacts-street{
+    width: 300px;
+    padding: 20px;
+  }
+  .contacts-map {
+    height: 330px;
+    margin-bottom: 100px;
+  }
+  .contacts-map iframe{
+    height: 330px;
+  }
+  .request-bid__link{
+    width: 340px;
+  }
+  .footer-seo {
+    margin-top: 50px;
   }
 }

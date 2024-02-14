@@ -60,6 +60,9 @@ body {
   padding-bottom: 15px;
   margin-bottom: 80px;
 }
+.main-header .contacts-list{
+  display: none;
+}
 .main-nav-logo {
   width: 11%;
 }
@@ -103,6 +106,26 @@ body {
   width: 1px;
   height: 16px;
   margin-right: 30px;
+  background-image: url("../img/icon/line.png");
+}
+.burger-wrapper {
+  display: none;
+}
+.burger-wrapper a{
+  display: flex;
+  height: 25px;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--chernyy);
+  text-decoration: none;
+}
+.burger-wrapper a::after{
+  content: "";
+  width: 1px;
+  height: 16px;
+  margin-left: 25px;
   background-image: url("../img/icon/line.png");
 }
 .main-banner {
