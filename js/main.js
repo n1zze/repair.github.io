@@ -80,12 +80,24 @@ elementsFolio.forEach(function(elem) {
 });
 
 
-
-
-
 // IMASK
 const element = document.getElementById("input-mask");
 const maskOptions = {
   mask: '+{7}(000)000-00-00'
 };
 const mask = IMask(element, maskOptions);
+
+
+//бургер
+
+const BurgerButton = document.getElementById("burger-btn")
+const BurgerWrapper = document.getElementById("burger-contact__menu")
+const sections = document.getElementsByTagName("section")
+
+BurgerButton.addEventListener("click", function () {
+    console.log("WWWAAWWAWAWWWQA");
+    for (const section of sections){
+        section.style.display = 'none'
+    }
+    BurgerWrapper.classList.add("burger__contact__open");
+});
